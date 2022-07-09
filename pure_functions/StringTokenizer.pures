@@ -1,0 +1,4 @@
+hashCode()I
+scanToken(I)I
+isDelimiter(I)Z
+<clinit>()V

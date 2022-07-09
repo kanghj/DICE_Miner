@@ -1,0 +1,12 @@
+containsKey(Ljava/lang/Object;)Z
+<clinit>()V
+getEntry(Ljava/lang/Object;)Ltutorial/util/HashMap$Entry;
+capacity()I
+loadFactor()F
+getForNullKey()Ljava/lang/Object;
+indexFor(II)I
+size()I
+hash(I)I
+containsValue(Ljava/lang/Object;)Z
+containsNullValue()Z
+isEmpty()Z

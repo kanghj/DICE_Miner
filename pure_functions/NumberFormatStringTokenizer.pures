@@ -1,0 +1,6 @@
+hashCode()I
+isLetterOrDigitAhead()Z
+nextIsSep()Z
+hasMoreTokens()Z
+countTokens()I
+<clinit>()V

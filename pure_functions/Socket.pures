@@ -1,0 +1,5 @@
+isConnected()Z
+isBound()Z
+isClosed()Z
+isInputShutdown()Z
+isOutputShutdown()Z

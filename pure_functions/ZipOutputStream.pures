@@ -1,0 +1,4 @@
+<clinit>()V
+getUTF8Bytes(Ljava/lang/String;)[B
+getUTF8Length(Ljava/lang/String;)I
+version(Ltutorial/util/zip/ZipEntry;)I

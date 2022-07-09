@@ -1,0 +1,3 @@
+size()I
+isEmpty()Z
+contains(Ljava/lang/Object;)Z

@@ -1,0 +1,14 @@
+contains(Ljava/lang/Object;)Z
+access$100(Ltutorial/util/LinkedList;)I
+getLast()Ljava/lang/Object;
+toArray()[Ljava/lang/Object;
+size()I
+<clinit>()V
+peekFirst()Ljava/lang/Object;
+peekLast()Ljava/lang/Object;
+getFirst()Ljava/lang/Object;
+peek()Ljava/lang/Object;
+lastIndexOf(Ljava/lang/Object;)I
+element()Ljava/lang/Object;
+indexOf(Ljava/lang/Object;)I
+access$000(Ltutorial/util/LinkedList;)Ltutorial/util/LinkedList$Entry;
