@@ -6,19 +6,9 @@ from violations.violation_checker import learn_from_traces_for_model
 import main
 
 
-# run like python ltl_rules.py ~/repos/DSM/data/LinkedList/input_traces/input.txt ~/evosuite_learning/Tutorial_Maven/.evosuite/tmp_2019_07_10_14_21_30/tests/LinkedList.pures linkedlist_vocab.txt linkedlist_event_vocab.txt | grep "LTL" > ltl_linkedlist.txt
-# ltl_rules.py <input traces> <known pures> <output vocab file> <output event vocab file>
-
-# This file seems to be used for creating the vocab file and the ltl_ files
 def run():
     print(sys.argv)
-
-
-    num_traces = 30000
-    print('taking only', num_traces, ' traces')
-    traces = main.read_traces(sys.argv[1], num_traces, main.strip_descriptor)
-
-
+    traces = main.read_traces(sys.argv[1], main.strip_descriptor)
 
     traces = [trace for trace in traces if "<IO-LEAK>" not in trace]
 
