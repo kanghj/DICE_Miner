@@ -1,8 +1,8 @@
 # DICE_Miner
-specification miner described in the Adversarial Specification Mining paper
+This is the DICE specification miner
 
 
-In ~/<user>/DICE_files, git clone the following repositories:
+In ~/\<user\>/DICE_files, git clone the following repositories:
 
 ```
 git clone https://github.com/kanghj/deep_spec_learning_ws
